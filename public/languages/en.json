@@ -1,0 +1,19 @@
+{
+	"home": {
+		"title": "Discover beyond space",
+		"description": "«Embart on a journey of exploration and discovery in the vast Cepheusverse, here the universe holds endless possibilities»"
+	},
+	"header": {
+		"navigation": {
+			"planets": "Planets",
+			"research": "Research",
+			"projects": "Projects",
+			"gallery": "Gallery",
+			"about": "About"
+		},
+		"selectPlanet": "Select a planet (E)",
+		"selectLanguage": "Select language"
+	},
+
+	"loading": "Loading..."
+}
