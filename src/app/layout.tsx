@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
 import { getLocale, getMessages } from 'next-intl/server'
@@ -37,6 +38,7 @@ export default async function RootLayout({
 				<NextIntlClientProvider messages={messages}>
 					<Header />
 					{children}
+					<Analytics />
 				</NextIntlClientProvider>
 			</body>
 		</html>
